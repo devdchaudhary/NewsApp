@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B61641CE299ACD0100008DAC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61641CB299ACD0100008DAC /* ViewModel.swift */; };
+		B61641CF299ACD0100008DAC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61641CC299ACD0100008DAC /* APIManager.swift */; };
+		B61641D0299ACD0100008DAC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61641CD299ACD0100008DAC /* Model.swift */; };
+		B61641D3299ACD8A00008DAC /* SwiftKeychainWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = B61641D2299ACD8A00008DAC /* SwiftKeychainWrapper */; };
+		B61641D5299AD33E00008DAC /* SourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61641D4299AD33E00008DAC /* SourceModel.swift */; };
+		B635AC07299B998400BCB43C /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B635AC06299B998400BCB43C /* NewsDetailView.swift */; };
+		B648FDBE299BB29200620A8F /* NewsArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B648FDBD299BB29200620A8F /* NewsArticleView.swift */; };
+		B648FDC1299BCC3600620A8F /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B648FDC0299BCC3600620A8F /* SDWebImageSwiftUI */; };
+		B6B2B64029A9487200FF18C4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B2B63F29A9487200FF18C4 /* Extensions.swift */; };
 		B6C90EA5299ACC3E004A008A /* NewsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C90EA4299ACC3E004A008A /* NewsAppApp.swift */; };
-		B6C90EA7299ACC3E004A008A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C90EA6299ACC3E004A008A /* ContentView.swift */; };
+		B6C90EA7299ACC3E004A008A /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C90EA6299ACC3E004A008A /* NewsFeed.swift */; };
 		B6C90EA9299ACC40004A008A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C90EA8299ACC40004A008A /* Assets.xcassets */; };
 		B6C90EAC299ACC40004A008A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C90EAB299ACC40004A008A /* Preview Assets.xcassets */; };
+		B6C90EB3299ACC4D004A008A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C90EB2299ACC4D004A008A /* Constants.swift */; };
+		B6EEF8C3299D55FE00FEC518 /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF8C2299D55FE00FEC518 /* NewsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B61641CB299ACD0100008DAC /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B61641CC299ACD0100008DAC /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		B61641CD299ACD0100008DAC /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B61641D4299AD33E00008DAC /* SourceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceModel.swift; sourceTree = "<group>"; };
+		B635AC06299B998400BCB43C /* NewsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailView.swift; sourceTree = "<group>"; };
+		B648FDBD299BB29200620A8F /* NewsArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticleView.swift; sourceTree = "<group>"; };
+		B6B2B63F29A9487200FF18C4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B6C90EA1299ACC3E004A008A /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C90EA4299ACC3E004A008A /* NewsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppApp.swift; sourceTree = "<group>"; };
-		B6C90EA6299ACC3E004A008A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6C90EA6299ACC3E004A008A /* NewsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
 		B6C90EA8299ACC40004A008A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C90EAB299ACC40004A008A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6C90EB2299ACC4D004A008A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B6EEF8C2299D55FE00FEC518 /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B648FDC1299BCC3600620A8F /* SDWebImageSwiftUI in Frameworks */,
+				B61641D3299ACD8A00008DAC /* SwiftKeychainWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +74,16 @@
 			isa = PBXGroup;
 			children = (
 				B6C90EA4299ACC3E004A008A /* NewsAppApp.swift */,
-				B6C90EA6299ACC3E004A008A /* ContentView.swift */,
+				B61641CC299ACD0100008DAC /* APIManager.swift */,
+				B6C90EB2299ACC4D004A008A /* Constants.swift */,
+				B6B2B63F29A9487200FF18C4 /* Extensions.swift */,
+				B61641CD299ACD0100008DAC /* Model.swift */,
+				B61641D4299AD33E00008DAC /* SourceModel.swift */,
+				B61641CB299ACD0100008DAC /* ViewModel.swift */,
+				B6C90EA6299ACC3E004A008A /* NewsFeed.swift */,
+				B6EEF8C2299D55FE00FEC518 /* NewsList.swift */,
+				B648FDBD299BB29200620A8F /* NewsArticleView.swift */,
+				B635AC06299B998400BCB43C /* NewsDetailView.swift */,
 				B6C90EA8299ACC40004A008A /* Assets.xcassets */,
 				B6C90EAA299ACC40004A008A /* Preview Content */,
 			);
@@ -83,6 +114,10 @@
 			dependencies = (
 			);
 			name = NewsApp;
+			packageProductDependencies = (
+				B61641D2299ACD8A00008DAC /* SwiftKeychainWrapper */,
+				B648FDC0299BCC3600620A8F /* SDWebImageSwiftUI */,
+			);
 			productName = NewsApp;
 			productReference = B6C90EA1299ACC3E004A008A /* NewsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +146,10 @@
 				Base,
 			);
 			mainGroup = B6C90E98299ACC3E004A008A;
+			packageReferences = (
+				B61641D1299ACD8A00008DAC /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+				B648FDBF299BCC3600620A8F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = B6C90EA2299ACC3E004A008A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +176,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6C90EA7299ACC3E004A008A /* ContentView.swift in Sources */,
+				B6C90EA7299ACC3E004A008A /* NewsFeed.swift in Sources */,
+				B635AC07299B998400BCB43C /* NewsDetailView.swift in Sources */,
 				B6C90EA5299ACC3E004A008A /* NewsAppApp.swift in Sources */,
+				B61641CF299ACD0100008DAC /* APIManager.swift in Sources */,
+				B61641D0299ACD0100008DAC /* Model.swift in Sources */,
+				B61641CE299ACD0100008DAC /* ViewModel.swift in Sources */,
+				B6EEF8C3299D55FE00FEC518 /* NewsList.swift in Sources */,
+				B648FDBE299BB29200620A8F /* NewsArticleView.swift in Sources */,
+				B61641D5299AD33E00008DAC /* SourceModel.swift in Sources */,
+				B6B2B64029A9487200FF18C4 /* Extensions.swift in Sources */,
+				B6C90EB3299ACC4D004A008A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +323,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +353,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +389,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B61641D1299ACD8A00008DAC /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		B648FDBF299BCC3600620A8F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B61641D2299ACD8A00008DAC /* SwiftKeychainWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B61641D1299ACD8A00008DAC /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */;
+			productName = SwiftKeychainWrapper;
+		};
+		B648FDC0299BCC3600620A8F /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B648FDBF299BCC3600620A8F /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B6C90E99299ACC3E004A008A /* Project object */;
 }

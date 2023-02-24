@@ -2,7 +2,7 @@
 //  NewsAppApp.swift
 //  NewsApp
 //
-//  Created by dddiehard on 14/02/23.
+//  Created by Devanshu Dev Chaudhary on 14/02/23.
 //
 
 import SwiftUI
@@ -11,7 +11,11 @@ import SwiftUI
 struct NewsAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                NewsFeed()
+            }
+            .navigationBarHidden(true)
+            .navigationBarBackButtonHidden(true)
         }
     }
 }
