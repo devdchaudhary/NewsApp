@@ -2,7 +2,7 @@
 //  NewsList.swift
 //  NewsApp
 //
-//  Created by dddiehard on 15/02/23.
+//  Created by devdchaudhary on 15/02/23.
 //
 
 import SwiftUI

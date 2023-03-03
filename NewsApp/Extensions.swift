@@ -2,7 +2,7 @@
 //  Extensions.swift
 //  NewsApp
 //
-//  Created by dddiehard on 25/02/23.
+//  Created by devdchaudhary on 25/02/23.
 //
 
 import SwiftUI
